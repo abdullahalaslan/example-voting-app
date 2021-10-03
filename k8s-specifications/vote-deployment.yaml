@@ -16,7 +16,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_vote:before
+      - image: 130575395405.dkr.ecr.us-east-1.amazonaws.com/vote-repository
         name: vote
         ports:
         - containerPort: 80

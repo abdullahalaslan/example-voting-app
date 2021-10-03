@@ -16,7 +16,7 @@ spec:
         app: result
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_result:before
+      - image: 130575395405.dkr.ecr.us-east-1.amazonaws.com/result-repository
         name: result
         ports:
         - containerPort: 80
